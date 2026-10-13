@@ -1,0 +1,64 @@
+.cabecalho {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.cabecalho h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.cabecalho nav {
+    margin-top: 10px;
+}
+
+.cabecalho a {
+    color: white;
+    margin: 5px;
+    font-size: 18px;
+}
+
+section{
+    height: 100dvh;
+    width: 100dvw;
+ 
+}
+.serie{
+     display: flex;
+     gap: 20px;
+     
+}
+.series{
+    border: 1px solid black;
+    height: 150px;
+    width: 250px;
+   
+}
+.Filme{
+    display: flex;
+     gap: 20px;
+     
+}
+.filmes{
+    border: 1px solid black;
+    height: 150px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personagem{
+    display: flex;
+    gap: 20px;
+}
+.personagens{
+    border: 1px solid black;
+    height: 150px;
+    width: 250px;
+}
+.filmes:hover{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pVOfQYcg-5mi5O0U_-M3itHsH8SCL9VIuF6ltDfhTg&s=10);
+    background-size: cover;
+}
